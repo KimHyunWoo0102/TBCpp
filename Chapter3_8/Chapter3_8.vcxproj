@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{d348fcd0-2eb5-4d12-b07e-40f77a2ef7df}</ProjectGuid>
-    <RootNamespace>chapter3</RootNamespace>
+    <ProjectGuid>{595db191-4159-46c2-835e-d2fe26f6b4dc}</ProjectGuid>
+    <RootNamespace>Chapter38</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -123,7 +123,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="bitwise.cpp" />
+    <ClCompile Include="bitwise_main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
