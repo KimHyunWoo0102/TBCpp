@@ -15,17 +15,18 @@ double findAverage(int count, ...) {
 	return sum / count;
 }
 
-string makeMsg(int count, ...) {
-	string msg = "";
-
-	va_list list;
-	va_start(list, count);
-
-	for (int arg = 0; arg < count; ++arg)
-		msg += va_arg(list, string) + " ";
-	va_end(list);
-	return msg;
-}
+//string makeMsg(int count, ...) {
+//	string msg = "";
+//
+//	va_list list;
+//	va_start(list, count);
+//
+//	for (int arg = 0; arg < count; ++arg)
+//		msg += va_arg(list, string) + " ";
+//	va_end(list);
+//	return msg;
+//}
+// c 스타일로 메모리 접근 하여 데이터를 꺼내오니 string 등 사용불가함
 int main() {
 	cout << findAverage(1, 1, 2, 3, "Hello", 'c') << endl;
 	cout << findAverage(3, 1, 2, 3) << endl;
