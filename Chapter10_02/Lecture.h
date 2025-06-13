@@ -46,7 +46,7 @@ public:
 	void study() {
 		std::cout << m_name << " Study " << std::endl << std::endl;
 
-		for (auto& element : students)
+		for (auto element : students)
 			element->setIntel(element->getIntel() + 1);
 	}
 
