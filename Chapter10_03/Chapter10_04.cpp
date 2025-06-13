@@ -50,6 +50,7 @@ void Doctor::meetPatient() {
 		cout << "Meet patient : " << ele->m_name << endl;
 	}
 }
+
 int main() {
 	Patient* p1 = new Patient("Jack Jack");
 	Patient* p2 = new Patient("Dash");
@@ -85,6 +86,7 @@ int main() {
 	delete p1;
 	delete p2;
 	delete p3;
+
 	delete d1;
 	delete d2;
 	return 0;
