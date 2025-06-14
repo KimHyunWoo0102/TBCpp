@@ -1,8 +1,6 @@
 #pragma once
 
 #include"Person.h"
-#include<iostream>
-#include<string>
 
 class Student:public Person {
 private :
